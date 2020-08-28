@@ -1,0 +1,11 @@
+
+There are three types of CSS.
+1)In line
+2)Exernal
+3)Internal
+
+The code is built in the html code is called internal...  the css code is imported to the html file is called external style.
+
+Internal CSS is writting inside headtag below title using <style> tag.
+
+External CSS can be implemented by using external CSS file.Create style.css as separate file using that inside head tag using <link> tag.
