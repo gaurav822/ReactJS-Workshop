@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+
+		img{
+  			border:2px solid blue;
+ 			}
+ 		.parent{
+  		display: flex;
+  		flex-direction: row;
+  		padding: 1%;
+  		margin:1%;
+ 		}
+ 		.jumbotron{
+  		padding: 1%;
+  		margin: 1%;
+  		text-align: center;
+ 		}
+
+		
+		
+
+	</style>
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand text-infor bg-success ">
+  <ul class="navbar-nav">
+   <li><a href="#" class="nav-link text-white">Home</a></li>
+   <li><a href="login.html" class="nav-link text-white">LoginPage</a></li>
+   <li><a href="profile.html" class="nav-link text-white">Profile</a></li>
+   <li><a href="index.html" class="nav-link text-white">Index</a></li>
+  </ul>
+ </nav>
+
+ <div class="parent">
+ 	
+ 	<div class="jumbotron" style="width: 300px">
+ 		
+ 		<img src="picture.png" class="img-thumbnail" />
+ 		<label>Hello</label>
+
+ 	</div>
+
+ 	<div class="jumbotron" style="width: 300px">
+ 		
+ 		<img src="picture.png" class="rounded" />
+ 	</div>
+ </div>
+
+
+ <div class="dropdown">
+ 	
+ 	<button class="btn-primary dropdown-toggle" data-toggle="dropdown">This is dropdown menu<span class="caret"></span></button>
+
+ 	<ul class="dropdown-menu">
+ 		<li><a href="profile.html">Profile</a></li>
+ 		<li><a href="login.html">Login</a></li>
+ 		<li><a href="index.html" >Register</a></li>
+ 	</ul>
+
+ </div>
+
+
+
+
+
+
+
+<div class="container-fluid">   <!--container-occpies entire viewport however only container can be used -->
+
+	<h1>Web Design using ReactJS</h1>
+
+	<p>This is my paragraph. This is my first reactjs workshop and i will do my best to learn out of this program</p>
+
+	<div class="row"> <!--For getting single row --> <!-- total 12 columns in row -->
+
+		<div class="col-sm-4" style="background-color: orange">First</div>
+		<div class="col-sm-4" style="background-color: #ddd">Second</div>
+		<div class="col-sm-3">Third</div>
+		<div class="col-sm-1" style="background-color: orange">Fourth</div>
+		
+		
+
+	</div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
